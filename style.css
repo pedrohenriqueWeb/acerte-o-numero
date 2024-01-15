@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.container .mainContent {
+    border: 2px solid;
+    padding: 15px;
+    width: 400px;
+}
+.mainContent h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.mainContent .paragraph {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.mainContent div {
+    display: flex;
+    flex-direction: column;
+}
+.mainContent div label {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.mainContent div input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.mainContent div button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(57, 57, 237, 0.375);
+    transition: .5s;
+}
+.mainContent div button:hover {
+    transform: scale(1.05);
+}
+
+.tentativas {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.resultado p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.resultado .errou {
+    color: red;
+}
+.resultado .acertou {
+    color: #008000;
+}
